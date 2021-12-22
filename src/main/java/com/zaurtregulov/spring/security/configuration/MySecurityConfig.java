@@ -18,7 +18,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
                         .password("zaur")
                         .roles("EMPLOYEE"))
                 .withUser(userBuilder.username("elena")
-                        .password("elen")
+                        .password("elena")
                         .roles("HR"))
                 .withUser(userBuilder.username("ivan")
                         .password("ivan")
